@@ -1,2 +1,2 @@
 # bug arena
- A arena in maltab for path planning algorithm comptition 
+Map generation was provided by the supervisor.
