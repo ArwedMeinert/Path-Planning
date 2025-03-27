@@ -37,7 +37,10 @@ This expands the node tree until the set number of nodes has been created. They 
 
 After the map has been explored, a goal can be added. Now, the goal is added to the node tree by searching for the node closest to the goal. This node becomes the parent of the goal node. The shortest path can now be obtained by backtracking through each parent node.
 
-<img src="https://github.com/user-attachments/assets/77ccd1e5-32cb-4b8c-8d1c-85d66f8c3531" width="50%">
+<img src="https://github.com/user-attachments/assets/77ccd1e5-32cb-4b8c-8d1c-85d66f8c3531" width="35%">
+<img src="https://github.com/user-attachments/assets/9ebf0643-9b6f-4873-996a-d4823dc142e9" width="35%">
+
+
 
 The resulting node tree does not necessarily provide the absolute shortest path to the goal, but it gives a good starting point. Each node is shown as a red cross, and a path is shown in dark blue. Similar to the algorithms above, the start is the green point on the right, and the goal is the red point in the center. The path from the start to the center is shown in light blue.
 
